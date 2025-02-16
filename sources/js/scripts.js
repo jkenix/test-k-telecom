@@ -1,3 +1,4 @@
+// Инициализируем слайдер
 document.addEventListener("DOMContentLoaded", () => {
     const Tarrifs = new Swiper(".Tarrifs", {
         loop: false,
@@ -7,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         slidesPerView: "auto",
         watchOverflow: true,
 
+        // Точки останова
         breakpoints: {
             576: {
                 slidesPerView: "auto",
@@ -28,11 +30,13 @@ document.addEventListener("DOMContentLoaded", () => {
             },
         },
 
+        // Навигация
         navigation: {
             nextEl: ".swiper-button-next__Tarrifs",
             prevEl: ".swiper-button-prev__Tarrifs",
         },
 
+        // Пагинация (точки)
         pagination: {
             el: ".swiper-pagination__Tarrifs", // Селектор для контейнера пагинации
             clickable: true, // Делаем пагинацию кликабельной
@@ -54,17 +58,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// Находим элементы
 // Находим все элементы tariffs-select
-const tariffsOptions = document.querySelectorAll('.tariffs-select');
+const tariffsSelect = document.querySelectorAll(".tariffs-select");
 
-tariffsOptions.forEach(option => {
-    const tariffsDesc = option.querySelector('.tariffs-select__desc'); // Находим конкретный desc в текущем option
-    const tariffsContent = option.querySelector('.tariffs-select__content'); // Находим соответствующий content
+tariffsSelect.forEach((select) => {
+    const tariffsDesc = select.querySelector(".tariffs-select__desc"); // Находим конкретный desc в текущем select
+    const tariffsContent = select.querySelector(".tariffs-select__content"); // Находим соответствующий content
 
     // Добавляем обработчик события клика
-    tariffsDesc.addEventListener('click', function() {
-        // Добавляем или удаляем класс active только для этого content
-        tariffsContent.classList.toggle('active');
+    tariffsDesc.addEventListener("click", function () {
+        // Добавляем или удаляем класс active только для этого select
+        tariffsContent.classList.toggle("active");
     });
 });
