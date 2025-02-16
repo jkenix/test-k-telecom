@@ -1,0 +1,37 @@
+.header {
+    background-color: $header-bg-color;
+    position: relative;
+    max-height: 100%;
+    z-index: 250;
+
+    transition: all 0.3s linear;
+
+    &__wrap {
+        position: relative;
+        z-index: 12;
+
+        width: 100%;
+    }
+
+    &__content {
+        @include row;
+        align-items: center;
+        flex-wrap: wrap;
+
+        position: relative;
+        z-index: 12;
+
+
+        height: 80px;
+        width: 100%;
+
+        @media (max-width: $lg) {
+            height: 50px;
+        }
+    }
+    
+
+    &__logo {
+       
+    }
+}

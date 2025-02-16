@@ -1,0 +1,51 @@
+.btn {
+    box-sizing: border-box;
+
+    position: relative;
+    max-width: 173px;
+    height: 45px;
+
+    @include row;
+    justify-content: center;
+    align-items: center;
+
+    &:focus {
+        border: 1px solid rgba(51, 51, 51, 0.5);
+        background: transparent;
+        color: rgb(51, 51, 51);
+    }
+
+    &__offer {
+        border: 1px solid $purple;
+        background: $purple;
+        color: $white;
+        border-radius: $border-rad-btn;
+        gap: 10px;
+        padding: 15px;
+
+        &:hover {
+            color: $purple;
+            background: transparent;
+        }
+    }
+
+    &__tarrifs {
+        border: 1px solid $purple;
+        background: $purple;
+        color: $white;
+        border-radius: $border-rad-btn;
+        gap: 10px;
+        padding: 15px;
+
+        max-width: 100%;
+
+        &:hover {
+            color: $purple;
+            background: transparent;
+        }
+
+        @media (max-width: $sm) {
+            max-width: 85%;
+        }
+    }
+}

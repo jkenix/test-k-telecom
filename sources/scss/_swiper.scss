@@ -1,0 +1,103 @@
+.swiper {
+    &-button {
+        width: 40px !important;
+        height: 40px !important;
+
+        &::after {
+            background-repeat: no-repeat;
+            background-position: center;
+
+            background-size: 10px;
+
+            font-size: 0 !important;
+
+            width: 100%;
+            height: 100%;
+        }
+
+        &:hover {
+            outline: 1px solid $purple;
+        }
+    }
+
+    &-button-next__Tarrifs {
+        display: flex;
+
+        left: auto !important;
+        right: 0px !important;
+        top: 0 !important;
+        bottom: 0 !important;
+
+        margin: auto !important;
+
+        border-radius: 50%;
+        background-color: $smoky;
+
+        color: $purple !important;
+
+        &:after {
+            background-image: url("../img/icons/arrow-mini-right.svg");
+        }
+
+        @media (max-width: $xl) {
+            right: 10px !important;
+        }
+
+        @media (max-width: $lg) {
+            // right: 10px !important;
+            display: none !important;
+        }
+    }
+
+    &-button-prev__Tarrifs {
+        display: flex;
+
+        left: -50px !important;
+        right: auto !important;
+        top: 0 !important;
+        bottom: 0 !important;
+
+        margin: auto !important;
+
+        border-radius: 50%;
+        background-color: $smoky;
+
+        color: $purple !important;
+
+        @media (max-width: $xl) {
+            left: -45px !important;
+        }
+
+        @media (max-width: $lg) {
+            // left: -20px !important;
+            display: none !important;
+        }
+
+        @media (max-width: $sm) {
+            // left: -10px !important;
+        }
+
+        &:after {
+            background-image: url("../img/icons/arrow-mini-left.svg");
+        }
+    }
+
+    // Pagination
+    &-pagination__Tarrifs {
+        bottom: -10px !important;
+
+        @media (max-width: $sm) {
+            bottom: -20px !important;
+        }
+    }
+
+    &-pagination-bullet {
+        &:hover {
+            outline: 3px solid $purple;
+        }
+
+        &-active {
+            background: $bg-dark !important;
+        }
+    }
+}

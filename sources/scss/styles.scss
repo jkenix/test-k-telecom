@@ -1,0 +1,19 @@
+// Global
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "global";
+
+@import "header";
+@import "footer";
+
+// Blocks
+@import "offer";
+@import "tariffs";
+
+// Pages
+@import "main";
+
+// Elements
+@import "btn";
+@import "swiper";
