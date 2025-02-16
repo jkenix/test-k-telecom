@@ -220,6 +220,15 @@ a:focus-visible {
     }
 }
 
+.container-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .container-fluid {
     max-width: 100%;
 }
