@@ -11,17 +11,17 @@
 
             <div class="footer__socials">
                 <div class="footer__social">
-                    <a href="#" target="_blank" class="footer__socials-icon">
+                    <a href="#" target="_blank" class="footer__socials-icon" title="Instagram">
                         <?php echo file_get_contents(get_stylesheet_directory() . '/sources/img/icons/inst-logo.svg'); ?>
                     </a>
                 </div>
                 <div class="footer__social">
-                    <a href="#" target="_blank" class="footer__socials-icon">
+                    <a href="#" target="_blank" class="footer__socials-icon" title="Youtube">
                         <?php echo file_get_contents(get_stylesheet_directory() . '/sources/img/icons/youtube-logo.svg'); ?>
                     </a>
                 </div>
                 <div class="footer__social">
-                    <a href="#" target="_blank" class="footer__socials-icon">
+                    <a href="#" target="_blank" class="footer__socials-icon" title="VK">
                         <?php echo file_get_contents(get_stylesheet_directory() . '/sources/img/icons/vk-logo.svg'); ?>
                     </a>
                 </div>

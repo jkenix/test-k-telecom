@@ -77,5 +77,9 @@
                 height: 25px;
             }
         }
+
+        &:hover {
+            filter: invert(0.2);
+        }
     }
 }
