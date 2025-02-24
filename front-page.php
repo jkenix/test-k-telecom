@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<?php get_template_part('templates/offer'); ?>
-
-<?php get_template_part('templates/tariffs'); ?>
+<?php the_content(); ?>
 
 <?php get_footer(); ?>

@@ -75,5 +75,9 @@ function svg_upload_allow($mimes)
 	return $mimes;
 }
 
+// Удаление лишней строчки
+add_filter('wp_img_tag_add_auto_sizes', '__return_false');
+
 // include custom functions
 require get_template_directory() . '/inc/custom_functions.php';
+require get_template_directory() . '/inc/register_post.php';

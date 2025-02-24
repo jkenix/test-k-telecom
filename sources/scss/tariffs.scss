@@ -118,22 +118,28 @@
     }
 
     &-info__desc {
-        color: rgb(85, 85, 85);
+        p {
+            color: rgb(85, 85, 85);
 
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 1px;
-        text-align: left;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 1px;
+            text-align: left;
 
-        margin: 0;
+            margin: 0;
+        }
 
         @media (max-width: $xl) {
-            font-size: 0.813rem;
+            p {
+                font-size: 0.813rem;
+            }
         }
 
         @media (max-width: $lg) {
-            font-size: 0.75rem;
+            p {
+                font-size: 0.75rem;
+            }
         }
     }
 
@@ -250,6 +256,7 @@
         text-align: left;
 
         margin-top: 20px;
+        margin-bottom: 20px;
 
         @media (max-width: $lg) {
             margin-top: 15px;
@@ -263,7 +270,7 @@
 
     // Btn
     &__button {
-        margin-top: 20px;
+        margin-top: auto;
     }
 
     &__button_select-tariff {

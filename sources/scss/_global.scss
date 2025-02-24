@@ -167,10 +167,11 @@ ol {
 a {
     font-family: $main-font;
     text-decoration: none;
-    color: $dark;
+    color: $purple;
 }
 
 a:hover {
+    text-decoration: underline;
 }
 
 a:focus-visible {
