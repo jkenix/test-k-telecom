@@ -4,7 +4,9 @@
 При выполнении работы, не нужно было использовать фреймворки.   
 Контент в блоках изменяется через админку с помощью плагинов Lazyblocks и ACF PRO.     
 
-[Макет здесь](https://www.figma.com/design/ni5ykh6MK97LUB7lHytfYb/%D0%9A-%D0%A2%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC-(%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)-(Copy)?node-id=0-1&t=4Njs08brQC1kXv7a-0)   🔗
+[Макет здесь](https://www.figma.com/design/ni5ykh6MK97LUB7lHytfYb/%D0%9A-%D0%A2%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC-(%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)-(Copy)?node-id=0-1&t=4Njs08brQC1kXv7a-0)   🔗   
+
+[Тз здесь](https://github.com/jkenix/test-k-telecom/blob/main/web/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20v2.pdf) 🔗   
 
 ## Порядок запуска проекта:   
 1. Установить Wordpress 3.7.2.   
